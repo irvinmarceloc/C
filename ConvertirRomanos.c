@@ -16,7 +16,7 @@ void main()
 			printf("%s",Vc[12]);
 			numero -= 1000;
 		}else{
-				for (i=11;i;--i) 
+				for (i=11;i>=0;--i) 
 					if (numero >= Vn[i + 1] && numero < Vn[i]) {	
 						printf("%s",Vc[i + 1]);
 						numero -= Vn[i + 1];
